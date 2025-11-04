@@ -1,0 +1,68 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Nosotros">
+  <main class="text-white">
+
+    <div
+      class="fixed inset-0 bg-cover bg-center bg-no-repeat blur-sm -z-20"
+      style="background-image: url('https://images.unsplash.com/photo-1524985069026-dd778a71c7b4');">
+    </div>
+
+    <div class="fixed inset-0 bg-black/50 -z-10"></div>
+
+    <nav id="mobileMenu" class="hidden flex-col space-y-2 mt-2 md:hidden px-6">
+      <a href="/" class="hover:text-yellow-400">Inicio</a>
+      <a href="/nosotros" class="hover:text-yellow-400">Nosotros</a>
+      <a href="/blog" class="hover:text-yellow-400">Blog</a>
+      <a href="/contacto" class="hover:text-yellow-400">Contacto</a>
+    </nav>
+
+    <div class="relative z-10 max-w-5xl mx-auto px-6 py-12 space-y-12">
+
+      <section class="text-center space-y-4">
+        <h2 class="text-4xl font-bold">Sobre Nosotros</h2>
+        <p class="text-lg leading-relaxed text-gray-300">
+          En InfoPelis nos apasionan las películas y todo lo relacionado con el mundo del cine.
+          Nuestra misión es brindar información precisa y entretenida sobre peliculas, actores,
+          directores y mucho más.
+        </p>
+      </section>
+
+      <section class="grid md:grid-cols-3 gap-6 text-center">
+        <div class="bg-gray-800 bg-opacity-70 p-6 rounded-lg shadow-md">
+          <h3 class="text-2xl font-semibold mb-2">Misión</h3>
+          <p class="text-gray-300">
+            Ofrecer a los amantes del cine una plataforma confiable, actualizada y fácil de usar
+            para conocer todo sobre sus películas favoritas.
+          </p>
+        </div>
+
+        <div class="bg-gray-800 bg-opacity-70 p-6 rounded-lg shadow-md">
+          <h3 class="text-2xl font-semibold mb-2">Visión</h3>
+          <p class="text-gray-300">
+            Seguir creciendo e informando sobre películas, actores, directores y noticias del cine.
+          </p>
+        </div>
+
+        <div class="bg-gray-800 bg-opacity-70 p-6 rounded-lg shadow-md">
+          <h3 class="text-2xl font-semibold mb-2">Valores</h3>
+          <p class="text-gray-300">
+            Transparencia, pasión por el cine, compromiso con los usuarios y creatividad en cada contenido.
+          </p>
+        </div>
+      </section>
+
+      <section class="text-center space-y-4">
+        <h2 class="text-4xl font-bold">Más</h2>
+        <p class="text-lg leading-relaxed text-gray-300">
+          InfoPelis es un sitio en crecimiento dedicado a los amantes del cine. Estamos construyendo
+          un espacio donde podrás encontrar información sobre películas, actores, directores y las
+          últimas noticias del mundo del cine.
+        </p>
+      </section>
+
+    </div>
+  </main>
+</Layout>

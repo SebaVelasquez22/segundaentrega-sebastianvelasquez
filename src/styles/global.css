@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@layer components{
+    .boton-card{
+        @apply mt-auto bg-yellow-400 text-black px-4 py-2 font-semibold hover:bg-yellow-300 transition text-center
+    }
+}

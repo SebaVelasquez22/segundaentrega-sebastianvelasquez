@@ -1,0 +1,36 @@
+---
+---
+
+<header class="bg-gray-800 bg-opacity-80 shadow-md relative z-20">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+    <div class="flex items-center space-x-2">
+      <img src="https://img.icons8.com/ios-filled/50/ffffff/clapperboard.png" alt="Logo" class="w-8 h-8" />
+      <h4 class="text-xl font-bold">InfoPelis</h4>
+    </div>
+
+    <button id="menuBtn" class="md:hidden text-white text-2xl">☰</button>
+
+    <nav class="hidden md:flex space-x-6">
+      <a href="/" class="hover:text-yellow-400">Inicio</a>
+      <a href="/nosotros" class="hover:text-yellow-400">Nosotros</a>
+      <a href="/blog" class="hover:text-yellow-400">Blog</a>
+      <a href="/contacto" class="hover:text-yellow-400">Contacto</a>
+    </nav>
+  </div>
+
+  <nav id="mobileMenu" class="hidden flex-col space-y-2 -mt-1 md:hidden px-6 bg-gray-800 bg-opacity-90">
+    <a href="/" class="hover:text-yellow-400 py-2 block">Inicio</a>
+    <a href="/nosotros" class="hover:text-yellow-400 py-2 block">Nosotros</a>
+    <a href="/blog" class="hover:text-yellow-400 py-2 block">Blog</a>
+    <a href="/contacto" class="hover:text-yellow-400 py-2 block">Contacto</a>
+  </nav>
+
+  <script>
+    const btn = document.getElementById('menuBtn');
+    const menu = document.getElementById('mobileMenu');
+
+    btn?.addEventListener('click', () => {
+      menu?.classList.toggle('hidden');
+    });
+  </script>
+</header>

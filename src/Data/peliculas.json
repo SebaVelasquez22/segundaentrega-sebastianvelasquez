@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nombre": "Inception",
+    "año": 2010,
+    "duracion": 148,
+    "imagen": "https://sebavelasquez22.github.io/imagenes/1.webp",
+    "descripcion": "Dom Cobb es un ladrón experto en infiltrarse en los sueños de las personas para robar secretos. Su nueva misión consiste en implantar una idea en la mente de un objetivo, enfrentándose a peligros dentro de sueños dentro de sueños y al límite entre la realidad y la fantasía."
+  },
+  {
+    "id": 2,
+    "nombre": "Interstellar",
+    "año": 2014,
+    "duracion": 169,
+    "imagen": "https://sebavelasquez22.github.io/imagenes/2.webp",
+    "descripcion": "Cuando la Tierra se enfrenta a la escasez de recursos y la supervivencia de la humanidad está en riesgo, un grupo de exploradores viaja a través de un agujero de gusano en busca de un nuevo hogar. La misión los lleva a enfrentarse a desafíos extremos del espacio y del tiempo, poniendo a prueba los lazos familiares y la determinación humana."
+  },
+  {
+    "id": 3,
+    "nombre": "The Dark Knight",
+    "año": 2008,
+    "duracion": 152,
+    "imagen": "https://sebavelasquez22.github.io/imagenes/3.webp",
+    "descripcion": "Batman se enfrenta a su mayor desafío cuando el Joker, un criminal impredecible y peligroso, siembra el caos en Gotham. Mientras lucha por proteger la ciudad y mantener el orden, debe confrontar sus propios límites y la delgada línea entre la justicia y la venganza."
+  },
+  {
+    "id": 4,
+    "nombre": "Avatar",
+    "año": 2009,
+    "duracion": 162,
+    "imagen": "https://sebavelasquez22.github.io/imagenes/4.webp",
+    "descripcion": "Un ex marine es enviado al mundo alienígena de Pandora, donde se encuentra con la cultura y los habitantes nativos, los Na’vi. Mientras cumple su misión, debe elegir entre seguir órdenes de la Tierra o proteger el mundo que llega a amar, enfrentándose a conflictos que cambiarán su vida para siempre."
+  },
+  {
+    "id": 5,
+    "nombre": "La La Land",
+    "año": 2016,
+    "duracion": 128,
+    "imagen": "https://sebavelasquez22.github.io/imagenes/5.webp",
+    "descripcion": "Una aspirante a actriz y un pianista de jazz luchan por cumplir sus sueños en Los Ángeles mientras viven un intenso romance. Entre la pasión por su arte y los desafíos de la vida, deberán decidir qué sacrificios están dispuestos a hacer por amor y éxito."
+  },
+  {
+    "id": 6,
+    "nombre": "Parasite",
+    "año": 2019,
+    "duracion": 132,
+    "imagen": "https://sebavelasquez22.github.io/imagenes/6.webp",
+    "descripcion": "Una familia pobre se infiltra poco a poco en la vida de una familia rica, consiguiendo empleos y ganando su confianza. Lo que comienza como una estrategia ingeniosa se convierte en un conflicto inesperado, revelando tensiones sociales y llevando a consecuencias sorprendentes y peligrosas."
+  }
+]
